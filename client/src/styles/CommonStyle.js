@@ -32,7 +32,7 @@ export const Title = css`
   font-family: 'Abril', sans-serif;
 `
 export const FontHeading = css`
-  font-family: 'Camera Obscura', serif;
+  font-family: 'CameraObscura', sans-serif;
 `
 export const FontHeading2 = css`
   font-family: 'Neon', sans-serif;
@@ -178,11 +178,11 @@ export const RowBetween = styled(Row)`
 /*----------  H1  ----------*/
 
 export const H1 = styled.h1`
-  ${FontHeading};
   ${responsiveTextSize(textSize.min.h1,textSize.max.h1, bp.mobile, bp.desktopBig)};
   display: flex;
   align-items: center;
-  @media screen and (max-width: ${bp.mobile}px){
+   ${FontHeading};
+    @media screen and (max-width: ${bp.mobile}px){
     text-align: center;
     padding: 30px 0;
     line-height: 100%;

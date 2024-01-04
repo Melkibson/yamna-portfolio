@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {bp, H1} from "../../../styles/CommonStyle";
+import {bp, FontHeading, H1} from "../../../styles/CommonStyle";
 import {motion} from "framer-motion";
 import {animate, initial} from "../../../styles/Animation";
 
@@ -8,6 +8,7 @@ const Heading = styled(H1)`
   width: auto;
   overflow: hidden;
   margin-bottom: 60px;
+  ${FontHeading};  
   span {
      transition: all 0.3s ease-out;
      transform-origin: bottom left;

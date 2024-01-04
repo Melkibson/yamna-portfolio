@@ -186,7 +186,6 @@ export const H1 = styled.h1`
     text-align: center;
     padding: 30px 0;
     line-height: 100%;
-    background: ${colors.black};
   }
 `
 /*----------  H2  ----------*/

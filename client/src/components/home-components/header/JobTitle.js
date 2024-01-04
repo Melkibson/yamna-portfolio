@@ -13,7 +13,8 @@ const Title = styled.span`
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
-  z-index: 1;  
+  z-index: 1;
+  padding-bottom: 50px;  
      span{
         &:last-child{
            margin-left: 30px;

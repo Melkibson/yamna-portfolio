@@ -27,7 +27,7 @@ export const Global = createGlobalStyle`
     }
     @font-face {
         font-family: Camera Obscura;
-        src:url("/fonts/cameraobscura/cameraobscura.otf");
+        src:url("/fonts/cameraobscura/cameraobscura.ttf");
     }
     @font-face {
         font-family: Neon;

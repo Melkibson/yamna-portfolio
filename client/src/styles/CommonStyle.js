@@ -32,7 +32,7 @@ export const Title = css`
   font-family: 'Abril', sans-serif;
 `
 export const FontHeading = css`
-  font-family: 'CameraObscura', sans-serif;
+  font-family: 'Densmore', sans-serif;
 `
 export const FontHeading2 = css`
   font-family: 'Neon', sans-serif;

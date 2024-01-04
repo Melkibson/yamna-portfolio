@@ -26,8 +26,8 @@ export const Global = createGlobalStyle`
       src:url("/fonts/akkurat/Akkurat-Light.ttf");
     }
     @font-face {
-        font-family: CameraObscura;
-        src:url("/fonts/cameraobscura/cameraobscura.ttf");
+        font-family: Densmore;
+        src:url("/fonts/densmore/densmore.otf");
     }
     @font-face {
         font-family: Neon;

@@ -20,7 +20,7 @@ const SectionNav = styled.nav`
     height: 30px;
   }
   @media screen and (min-width: ${bp.desktop}px) {
-    transform: rotate(-90deg) translateX(-75%);
+    transform: rotate(-90deg) translateX(-85%);
   }
 `;
 const ContainerNav = styled.div`

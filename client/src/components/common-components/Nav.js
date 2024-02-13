@@ -9,22 +9,25 @@ const SectionNav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100vh;
+  width: 100vh;
   position: fixed;
   height: 80px;
   z-index: 2;
+  padding: 3rem;
   transform: rotate(-90deg) translateX(-100%);
   transform-origin: left top;
-  @media screen and (max-width: ${bp.mobile}px){
+  @media screen and (max-width: ${bp.mobile}px) {
     height: 30px;
   }
-`
+  @media screen and (min-width: ${bp.desktop}px) {
+    transform: rotate(-90deg) translateX(-75%);
+  }
+`;
 const ContainerNav = styled.div`
   display: flex;
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: center;
+  align-items: end;
   padding-right: 50px;
   gap: 20px;
   z-index: 99;

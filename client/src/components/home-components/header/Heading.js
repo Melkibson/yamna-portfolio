@@ -10,7 +10,7 @@ import Title from "./Title";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   height: auto;
   justify-content: space-between;
   @media screen and (max-width: ${bp.mobile}px){

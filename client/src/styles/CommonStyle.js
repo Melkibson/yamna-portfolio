@@ -29,7 +29,7 @@ export const colors = {
 =            FONTS            =
 =================================*/
 export const Title = css`
-  font-family: 'Abril', sans-serif;
+  font-family: 'Neon', sans-serif;
 `
 export const FontHeading = css`
   font-family: 'Densmore', sans-serif;

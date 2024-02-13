@@ -64,6 +64,7 @@ const Projects = ({title}) => {
     try {
       const responseWeb = await axios.get('https://yamna.click/api/projectweb');
       setProject(responseWeb.data);
+      console.log(responseWeb.data);
       const response = await axios.get('https://yamna.click/api/projectdesign');
       setDesign(response.data);
       
@@ -84,7 +85,7 @@ const Projects = ({title}) => {
            <Grid column>
                <Heading>
                    <HeadingContainer>
-                       <H2 >{title}</H2>
+                       <H2>{title}</H2>
                    </HeadingContainer>
                </Heading>
                <MasonryGrid id={'grid'}>

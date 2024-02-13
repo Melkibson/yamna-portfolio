@@ -17,9 +17,6 @@ const SectionHeader = styled(Section)`
   padding: 0;
   @media screen and (orientation: portrait){
     max-height: 700px;
-    @media screen and (max-width: ${bp.mobile}px ){
-      height: auto;
-    }
   }
 `
 const Overlay = styled.div`

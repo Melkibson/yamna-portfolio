@@ -4,13 +4,10 @@ import {Title} from "../../../styles/CommonStyle";
 export const NavLink = styled.span`
   cursor: pointer;
   ${Title};
-  font-size: 22px;
+  font-size: 1.75rem;
   transition: all 0.2s ease-in-out;
-  @media screen and (max-width: ${bp.tablet}px){
-    font-size: 18px;
-  }
     @media screen and (max-width: ${bp.mobile}px){
-    font-size: 16px;
+      font-size: 1.5rem;
   }
 
   &:active,  &:hover{

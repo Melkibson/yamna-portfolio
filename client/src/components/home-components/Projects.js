@@ -63,9 +63,8 @@ const Projects = ({title}) => {
   const fetchProjects = async () => {
     try {
       const responseWeb = await axios.get('https://yamna.click/api/projectweb');
-      console.log(responseWeb.data);
-      const response = await axios.get('https://yamna.click/api/projectdesign');
       setProject(responseWeb.data);
+      const response = await axios.get('https://yamna.click/api/projectdesign');
       setDesign(response.data);
       
     } catch (err) {

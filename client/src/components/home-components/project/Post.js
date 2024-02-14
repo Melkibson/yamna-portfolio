@@ -9,7 +9,7 @@ const PostItem = styled.a`
   overflow: hidden;
   &:hover {
     ${PostItemImg} {
-      border: 5px solid #fff;
+      border: 5px solid #000;
       transition: all 0.2s linear;
     }
   }

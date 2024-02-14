@@ -10,7 +10,7 @@ const PostItem = styled.a`
   &:hover {
     ${PostItemImg} {
       border: 5px solid #000;
-      transition: all 0.2s linear;
+      transition: all 0.2s ease-in-out;
     }
   }
 `;

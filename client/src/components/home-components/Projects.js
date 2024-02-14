@@ -58,15 +58,12 @@ const breakpointColumnsObj = {
 
 const Projects = ({title}) => {
   const [project , setProject] = useState([])
-  const [design , setDesign] = useState([])
   
   const fetchProjects = async () => {
     try {
       const responseWeb = await axios.get('https://yamna.click/api/projectweb');
       setProject(responseWeb.data);
       console.log(responseWeb.data);
-      const response = await axios.get('https://yamna.click/api/projectdesign');
-      setDesign(response.data);
       
     } catch (err) {
       console.log(err);
@@ -100,16 +97,6 @@ const Projects = ({title}) => {
                                        key={index}
                                        imgSrc={post.src}
                                        link={post.demo}
-                                   />
-                               )
-
-                           )
-                       }
-                       {
-                           design.map( (post, index) => (
-                                   <Post
-                                       key={index}
-                                       imgSrc={post.src}
                                    />
                                )
 

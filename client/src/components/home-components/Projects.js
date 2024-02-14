@@ -50,7 +50,7 @@ const MasonryGrid = styled(Grid)`
 `
 
 const breakpointColumnsObj = {
-    default: 3,
+    default: 2,
     1200: 2,
     700: 1,
 };

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {bp, colors, FontHeading2, FontParagraphMd, responsiveTextSize, textSize} from "../../../styles/CommonStyle";
+import {bp, colors, FontHeading2, responsiveTextSize, textSize} from "../../../styles/CommonStyle";
 import {Line} from "./Line";
 import {initial, animate} from "../../../styles/Animation";
 

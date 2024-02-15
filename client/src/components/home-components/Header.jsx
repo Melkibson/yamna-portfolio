@@ -3,7 +3,6 @@ import {
     colors,
     Grid,
     Section,
-    bp,
 } from '../../styles/CommonStyle'
 
 import Heading from "./header/Heading";
